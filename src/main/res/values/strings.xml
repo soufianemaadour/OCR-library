@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">EER Sample App</string>
+
+    <string name="btn_usdl_default_ui">US Driver\'s Licence - Default UI</string>
+    <string name="btn_default_ui">Passport - Default UI</string>
+    <string name="btn_custom_ui_german_id">German ID - Custom Overlay</string>
+    <string name="btn_default_ui_edge">Edge Detection - Default UI</string>
+    <string name="btn_custom_ui_edge">Edge Detection - Custom Overlay</string>
+    <string name="btn_sa_green_book_id">SA Green Book ID</string>
+    <string name="btn_barcode_id">Barcode</string>
+    <string name="btn_sa_smart_back_id">SA Smart Back ID</string>
+    <string name="tv_title_menu">DaonDocument SDK Sample</string>
+
+    <string name="title_activity_custom_scan">CustomScanActivity</string>
+
+    <string name="custom_ui_scan_again">Scan Again</string>
+    <string name="cancel_txt">Cancel</string>
+
+    <string name="start_scanning">Line up your identity document to fit in frame</string>
+    <string name="msg_back_scanning">Now scan the BACK of your ID card</string>
+    <string name="msg_scanning_1">Scanning.</string>
+    <string name="msg_scanning_2">Scanning..</string>
+    <string name="msg_scanning_3">Scanning...</string>
+
+    <string name="msg_edge_done">Edge Detection used</string>
+    <string name="msg_scan_done">Scanned: %1$s</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="empty_view">List is empty</string>
+    <string name="btn_cro_id_auto">Croatian id IMAGE SCAN</string>
+    <string name="btn_col_id_auto">Colombia ID Image scan</string>
+
+    <string name="version">Version</string>
+    <string name="selected_document">Selected Document</string>
+    <string name="selected_document_with_count">Selected Document (%d)</string>
+
+    <string name="change">Change</string>
+    <string name="settings">Settings:</string>
+    <string name="use_custom">Custom Overlay</string>
+    <string name="use_face_detection">Face Detection</string>
+    <string name="begin">Begin Scan</string>
+    <string name="dpi">Full document image DPI</string>
+    <string name="fallback_to_edge">Fallback to edge detection</string>
+    <string name="scan_duration">Scanning duration (s)</string>
+    <string name="edge_cropping">Edge manual cropping</string>
+    <string name="document_cropping">Document manual cropping</string>
+
+
+    <string name="app_ver">App v%s</string>
+    <string name="sdk_ver">SDK v%s</string>
+
+    <string name="face_image">Face Image (%s)</string>
+    <string name="dewarped_image">Processed Image (%s)</string>
+    <string name="full_frame_image">Unprocessed Image (%s)</string>
+    <string name="ocr_data">Extracted OCR data</string>
+    <string name="aspect_ratio">Aspect Ratio</string>
+    <string name="physical_height">Physical Height</string>
+
+    <string name="portrait_tolerance">Edge Detection Portrait Tolerance</string>
+    <string name="landscape_tolerance">Edge Detection Landscape Tolerance</string>
+    <string name="stable_detections">Number of stable detections</string>
+    <string name="custom_ui_scan">Scan</string>
+    <string name="custom_ui_details">Show Details</string>
+    <string name="glare_detected">Glare detected</string>
+    <string name="vertical_scan">Vertical Card Edge Detection</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_start">start</string>
+
+
+    <string name="permission_granted">Permission granted</string>
+    <string name="permission_not_granted">Permission not granted</string>
+
+    <string name="info">This app shows a recommended approach to liveness detection.</string>
+    <string name="info_server">This app demonstrates best practices for server based enrollment and verification.</string>
+
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="next">Continue</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="timeout">Time out</string>
+    <string name="blink">Blink</string>
+    <string name="nod">Nod</string>
+    <string name="shake">Shake</string>
+
+    <string name="alert">Alert</string>
+    <string name="quality">Quality</string>
+
+    <string name="blink_message">Please blink</string>
+    <string name="nod_message">Please nod</string>
+    <string name="shake_message">Please shake your head</string>
+
+    <string name="progress_face">Looking for face</string>
+    <string name="progress_quality">Make sure you are in well lit location</string>
+    <string name="progress_device_position">Hold device upright</string>
+    <string name="progress_detected_type">Detected a %1$s!. Please wait&#8230;</string>
+
+    <string name="error_face">Face not found. Try again.</string>
+    <string name="error_device_position">Make sure to hold the device in an upright position.</string>
+    <string name="error_timeout">Hmm too slow. Please try again.</string>
+    <string name="error_wrong_type">Expected a %1$s!</string>
+    <string name="error_out_of_memory">Out of memory</string>
+
+    <string name="pref_anti_spoof">Enable anti-spoofing</string>
+    <string name="pref_time_limit">Time limit</string>
+
+    <string name="pref_quality_measures">Show quality</string>
+    <string name="pref_best_image">Show best image</string>
+    <string name="pref_blink_threshold">Blink threshold</string>
+    <string name="pref_hmd_cutoff_switch">Enable distance cutoff (Nod/Shake)</string>
+    <string name="pref_hmd_cutoff_value">Distance cutoff (Nod/Shake)</string>
+    <string name="pref_hmd_threshold">Motion threshold (Nod/Shake)</string>
+    <string name="pref_hmd_time_limit_nod">Analysis time limit - Nod</string>
+    <string name="pref_hmd_time_limit_shake">Analysis time limit - Shake</string>
+
+    <string name="face_title">Face</string>
+    <string name="face_initialize">Initializing&#8230;</string>
+    <string name="face_start">Get ready</string>
+    <string name="face_verify">Verifying face&#8230;</string>
+    <string name="face_verify_failed">Failed to verify face</string>
+    <string name="face_verify_timeout">Timeout</string>
+    <string name="face_verify_complete">Face verified</string>
+    <string name="face_verify_complete_with_score">Verified with score: %1$s (%2$s)</string>
+    <string name="face_verify_failed_with_score">Not recognized. Score: %1$s (%2$s)</string>
+    <string name="face_not_detected">Keep face centered</string>
+    <string name="face_enroll">Enrolling face&#8230;</string>
+    <string name="face_enroll_failed">Failed to enroll face</string>
+    <string name="face_enroll_complete">Face enrolled</string>
+
+    <string name="face_liveness_detected">Liveness detected</string>
+    <string name="face_liveness_not_detected">Watching for liveness&#8230;</string>
+    <string name="face_liveness_timeout">Liveness detection timeout</string>
+    <string name="face_liveness_failed">Please try again</string>
+    <string name="face_liveness_hmd_face_not_detected">No face detected</string>
+    <string name="face_liveness_hmd_face_not_centered">Center face</string>
+    <string name="face_liveness_hmd_motion_too_fast">Motion too fast</string>
+    <string name="face_liveness_hmd_motion_swing_too_fast">Nod/Shake movement too fast</string>
+    <string name="face_liveness_hmd_motion_too_far">Nod/Shake movement too far</string>
+    <string name="face_liveness_hmd_too_close_to_edge">Face is too close to the edge</string>
+    <string name="face_liveness_hmd_too_near">Face too close</string>
+    <string name="face_liveness_hmd_too_far">Face too far away</string>
+    <string name="face_liveness_hmd_spoof">Spoof detected</string>
+
+    <string name="face_quality">We can\'t use this photo</string>
+    <string name="face_quality_too_small">Move closer to the camera</string>
+    <string name="face_quality_too_large">Too close to the camera</string>
+    <string name="face_quality_non_uniform_lighting">Improve lighting conditions</string>
+    <string name="face_quality_exposure">Image too dark</string>
+    <string name="face_quality_pose">Face towards the camera</string>
+    <string name="face_quality_device_upright">Hold the device in an upright position</string>
+    <string name="face_quality_sharpness">Image blurred</string>
+
+    <string name="photo_take">Take Photo</string>
+    <string name="photo_enroll">Enroll</string>
+    <string name="photo_retake">Retake</string>
+    <string name="photo_info">Please take your photo</string>
+
+
+    <string name="face_liveness_clr_start">Hold device upright and do not move</string>
+    <string name="face_liveness_clr_sequence">Don\'t move!</string>
+
+    <string name="face_liveness_3d_start">Looking for a face</string>
+    <string name="face_liveness_3d_status">--</string>
+    <string name="face_liveness_3d_retry">Retry</string>
+
+    <string name="instructions_enroll">Do not enroll while operating a vehicle</string>
+    <string name="instructions_verify">Do not verify requests while operating a vehicle</string>
+    <string name="instructions_face">Hold phone at eye level and about half an arm\'s length away.</string>
+    <string name="instructions_face_position">Center face in viewer. No need to smile.</string>
+    <string name="instructions_face_features">Remove glasses and ensure good lighting.</string>
+    <string name="dont_show_again_button">Don\'t show again</string>
+
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="title_activity_custom_analyzer">CustomAnalyzerActivity</string>
+
+
+    <string-array name="barcode_array">
+        <item>NONE</item>
+        <item>QR</item>
+        <item>DATA_MATRIX</item>
+        <item>UPCE</item>
+        <item>UPCA</item>
+        <item>EAN8</item>
+        <item>EAN13</item>
+        <item>CODE128</item>
+        <item>CODE39</item>
+        <item>ITF</item>
+        <item>AZTEC</item>
+        <item>PDF417</item>
+    </string-array>
+</resources>

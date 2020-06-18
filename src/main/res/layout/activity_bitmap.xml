@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fawri.b3g.id.doc.com.fawri.sdk.face.application.BitmapImageActivity">
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="320dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/usdl" />
+
+    <ImageView
+        android:id="@+id/faceOneImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/faceTwoImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photoImageView"
+        app:srcCompat="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/faceOneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/faceOneImageView"
+        app:layout_constraintEnd_toEndOf="@+id/faceOneImageView"
+        app:layout_constraintTop_toBottomOf="@+id/faceOneImageView" />
+
+    <ImageView
+        android:id="@+id/faceTwoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/faceThreeImageView"
+        app:layout_constraintStart_toEndOf="@+id/faceOneImageView"
+        app:layout_constraintTop_toBottomOf="@+id/photoImageView"
+        app:srcCompat="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/faceTwoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/faceTwoImageView"
+        app:layout_constraintEnd_toEndOf="@+id/faceTwoImageView"
+        app:layout_constraintTop_toBottomOf="@+id/faceTwoImageView" />
+
+    <ImageView
+        android:id="@+id/faceThreeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/faceTwoImageView"
+        app:layout_constraintTop_toBottomOf="@+id/photoImageView"
+        app:srcCompat="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/faceThreeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/faceThreeImageView"
+        app:layout_constraintEnd_toEndOf="@+id/faceThreeImageView"
+        app:layout_constraintTop_toBottomOf="@+id/faceThreeImageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/oneButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="One"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/twoButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Two"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/threeButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Three"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
