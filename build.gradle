@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
@@ -9,7 +9,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.fawri.b3g.id.doc"
+
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 01
